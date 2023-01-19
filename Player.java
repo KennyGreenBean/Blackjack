@@ -14,7 +14,7 @@ public class Player {
         for(i = 0; i < hand.size() - 1; i++){
             System.out.print(hand.get(i).getValue() + " " + hand.get(i).getSuit() + ", ");
         }
-        System.out.println(hand.get(i + 1).getValue() + " " + hand.get(i + 1).getSuit());
+        System.out.println(hand.get(i).getValue() + " " + hand.get(i).getSuit());
     }
 
     public void removeHand(){

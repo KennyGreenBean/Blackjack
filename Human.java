@@ -1,17 +1,18 @@
 public class Human extends Player{
 
-    private int money;
+    int money;
+    int betMoney = 0;
 
     public Human(String playerName, int money) {
         super(playerName);
         this.money = money;
     }
 
-    public int bet(int betMoney){
+    public void bet(int betMoney){
         if(betMoney > money){
-            return 0;
+            return;
         }
         money -= betMoney;
-        return betMoney;
+        this.betMoney = betMoney;
     }
 }
