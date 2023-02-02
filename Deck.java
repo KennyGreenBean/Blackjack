@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class Deck {
     private boolean jokers;
-    private ArrayList<Card> deck = new ArrayList<>();
+    public ArrayList<Card> deck = new ArrayList<>();
 
     public Deck(int decks, boolean jokers){
         this.jokers = jokers;

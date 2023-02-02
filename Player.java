@@ -4,6 +4,7 @@ public class Player {
     ArrayList<Card> hand = new ArrayList<Card>();
 
     String playerName;
+    boolean inOrOut = true;
 
     public Player(String playerName) {
         this.playerName = playerName;

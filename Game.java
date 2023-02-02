@@ -6,7 +6,7 @@ abstract class Game {
     Dealer dealer;
     ArrayList<Card> discardPile = new ArrayList<>();
 
-    int turnCounter = 1;
+    int turnCounter = 0;
 
     public Game(ArrayList<Card> deck, ArrayList<Human> players, Dealer dealer){
         this.deck = deck;
